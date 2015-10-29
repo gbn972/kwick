@@ -1,0 +1,52 @@
+$icon-font-path: '../fonts/';
+
+/* bower:scss */
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+/* endbower
+/* @body */
+@import "_body.scss";
+/* @media_screen */
+@import "_media_screen.scss";
+/* @form */
+@import "_form.scss";
+/* @navbar */
+@import "_navbar.scss";
+/* @footer */
+@import "_footer.scss";
+/* @header */
+@import "_header.scss";
+/* @button */
+@import "_buttton.scss";
+
+@import "_tchat.scss";
+
+
+
+html{
+	position:relative;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.marketing{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+
